@@ -6,21 +6,19 @@ print(
     ___   ___           __
     |  '  |  '    __   /
     | | | | | |  '  '  \_
-"""
-    )
-
-print(
-"""
     | | | | | | | || |   \
     |__'  |__'   '__'  __/
-    ________________________
-    made by Bananut|v1.0
-    ____________________________________
-    Pleas don't use this script illegaly.
-"""
-    )
+""")
+
+print("""
+________________________
+made by Bananut|v1.0
+____________________________________
+Pleas don't use this script illegaly.      
+""")
+
 target = "target ip"
-port = "your port"
+port = your port
 fake_ip = "make a fake ip"
 
 already_connected = 0
