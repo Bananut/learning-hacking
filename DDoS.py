@@ -14,9 +14,9 @@ print \
     Pleas don't use this script illegaly.
 """
 
-target = "http://192.168.0.181"
-port = 80
-fake_ip = "185.186.250.123"
+target = "target ip"
+port = "your port"
+fake_ip = "make a fake ip"
 
 already_connected = 0
 
